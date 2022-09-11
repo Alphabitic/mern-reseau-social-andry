@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import { UidContext } from "./AppContext";
 import Logout from "./Log/Logout";
 import HolidayVillageIcon from '@mui/icons-material/HolidayVillage';
-import AndroidIcon from '@mui/icons-material/Android';
 import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 const Navbar = () => {
   const uid = useContext(UidContext);
