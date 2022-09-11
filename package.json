@@ -5,8 +5,7 @@
   "main": "index.js",
   "proxy": "http//:localhost:5000",
   "scripts": {
-    "start": "npm run build && nodemon server",
-    "build": "babel src -d dist"
+    "start": "nodemon server"
   },
   "keywords": [],
   "author": "",
