@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "proxy": "http//:localhost:5000",
+  "engines": {
+    "node": "14.20.0"
+  },
   "scripts": {
     "start": "npm run build && nodemon server",
     "build": "cd client && npm install && npm run build",
